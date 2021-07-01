@@ -8,6 +8,7 @@ class Sword(val name : String, val material : Material, val lore : List<String>,
     val itemStack: ItemStack = ItemStack(material)
 
     init {
+        //test
         val meta = itemStack.itemMeta!!
         meta.setDisplayName(name)
 
