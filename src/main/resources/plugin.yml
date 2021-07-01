@@ -1,0 +1,6 @@
+name: RPGItemAPI
+version: @version@
+main: me.kota.rpgitemapi.RPGItemAPI
+api-version: 1.16
+depend: [ RPGCoreAPI ]
+authors: [ Kota ]
